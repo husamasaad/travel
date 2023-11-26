@@ -65,7 +65,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <p className='text-[16px] tracking-[-0.32px] text-center text-[#181433] py-8'>Copyright @ Xpro 2022. All Rights Reserved.</p>
+      <p className='text-[16px] tracking-[-0.32px] text-center text-[#181433] py-8'>Copyright @ Xpro 2023. All Rights Reserved. created by Husam Asaad</p>
     </footer>
   )
 }
