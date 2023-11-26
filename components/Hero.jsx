@@ -36,7 +36,7 @@ const Hero = async () => {
   const heroBlurUrl = await getBase64("http://localhost:3000/hero-bg.png")
 
   return (
-    <header className='relative h-screen max-h-[900px] x-paddings flex items-center py-36'>
+    <header className='relative h-[900px] x-paddings flex items-center py-36'>
       <Image 
         fill
         src="/hero-bg.png"
