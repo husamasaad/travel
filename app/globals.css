@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Yesteryear&display=swap');
+
+
+*, body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+@layer utilities {
+
+  .cursive {
+    font-family: 'Yesteryear', cursive;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center
+  }
+  .flex-start {
+    @apply flex items-center justify-start
+  }
+  .flex-between {
+    @apply flex items-center justify-between
+  }
+
+  .paddings {
+    @apply px-6 sm:px-52 py-12 sm:py-20
+  }
+  .x-paddings {
+    @apply px-6 sm:px-36
+  }
+  .y-paddings {
+    @apply py-12 sm:py-20
+  }
+
+  .no-focus {
+    @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 focus:outline-none !important;
+  }
+  
+  .tag-gradient {
+    border-radius: 46px;
+    background: linear-gradient(100deg, #FF7255 8.93%, #BA4E38 100%);
+  }
+}
+
+
+
+.circle-background {
+  fill: none;
+  stroke: #ddd;
+}
+
+.circle-progress {
+  fill: none;
+  stroke: #8437FF
+}
