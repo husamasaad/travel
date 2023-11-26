@@ -36,7 +36,7 @@ const Hero = async () => {
   const heroBlurUrl = await getBase64("http://localhost:3000/hero-bg.png")
 
   return (
-    <header className='relative h-[900px] x-paddings flex items-center py-36'>
+    <header className='relative min-h-screen max-h-[900px] x-paddings flex items-center py-36'>
       <Image 
         fill
         src="/hero-bg.png"
@@ -55,7 +55,7 @@ const Hero = async () => {
           alt='wavy icon'
           className='mb-4'
         />
-        <h1 className='text-6xl md:text-7xl !leading-[116%] text-white font-bold max-w-[500px]'>
+        <h1 className='text-4xl md:text-7xl !leading-[116%] text-white font-bold max-w-[500px]'>
           No matter where you’re going to, we’ll take you there
         </h1>
         <HeroForm />
